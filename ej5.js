@@ -1,7 +1,8 @@
-function cinco(p,n){
-    n+=1;
+function exerciseElaboration(p,n){
     var sum=p;
-    while(n--!=0){
+    n= n+1;
+    while(n!=0){
+      n= n-1;
       sum*=10;
     }
     sum+=p;
@@ -13,5 +14,4 @@ function cinco(p,n){
     }
     return p;
 }
-
-console.log(cinco(1,2));
+console.log(exerciseElaboration(1,2));
